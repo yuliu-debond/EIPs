@@ -3,6 +3,8 @@ on:
   workflow_run:
     workflows:
       - Rerun Bot
+    types:
+      - requested
 
 jobs:
   rerun-bot:
